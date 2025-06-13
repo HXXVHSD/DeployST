@@ -2,17 +2,19 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore} from "firebase/firestore"
 import { getAuth } from 'firebase/auth';
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBholN04eZ1ZwwcEzp6_kIyyw5nIlcGtWE",
-  authDomain: "databaseproject-9ae19.firebaseapp.com",
-  projectId: "databaseproject-9ae19",
-  storageBucket: "databaseproject-9ae19.firebasestorage.app",
-  messagingSenderId: "939920032831",
-  appId: "1:939920032831:web:e16e1576746cbda53d648a"
+  apiKey: "AIzaSyD7rIF6QxS6g7LSHMQZm9QJPn3C1Eu3DTU",
+  authDomain: "swaptrade-database.firebaseapp.com",
+  projectId: "swaptrade-database",
+  storageBucket: "swaptrade-database.firebasestorage.app",
+  messagingSenderId: "149234096731",
+  appId: "1:149234096731:web:81e6fe3912626e4e41fd7e",
+  measurementId: "G-0ZN8JC5ZG2"
 };
 
 // Initialize Firebase
